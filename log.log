@@ -1,0 +1,333 @@
+
+[2025-05-30 15:42:28] Wp_Aitb_Module_Reddit::post: 599; User: 1; Str: Reddit Post: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [content-type] => application/json; charset=UTF-8
+                    [x-ua-compatible] => IE=edge
+                    [expires] => -1
+                    [cache-control] => private, s-maxage=0, max-age=0, must-revalidate, no-store
+                    [set-cookie] => Array
+                        (
+                            [0] => loid=000000001qggj7sxq2.2.; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sun, 30-May-2027 15:42:29 GMT; secure
+                            [1] => session_tracker=w5E6pRwCdCIEm80AFj.0.1748619749507.lVSGk; Domain=reddit.com; Max-Age=7199; Path=/; expires=Fri, 30-May-2025 17:42:29 GMT; secure
+                            [2] => edgebucket=jtn5Esx5c; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+                        )
+
+                    [x-ratelimit-used] => 4
+                    [x-ratelimit-remaining] => 996.0
+                    [x-ratelimit-reset] => 450
+                    [content-encoding] => gzip
+                    [accept-ranges] => bytes
+                    [date] => Fri, 30 May 2025 15:42:29 GMT
+                    [via] => 1.1 varnish
+                    [vary] => Accept-Encoding
+                    [strict-transport-security] => max-age=31536000; includeSubdomains
+                    [x-content-type-options] => nosniff
+                    [x-frame-options] => SAMEORIGIN
+                    [x-xss-protection] => 1; mode=block
+                    [server] => snooserv
+                    [report-to] => {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+                    [nel] => {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+                )
+
+        )
+
+    [body] => {"message": "Internal Server Error", "error": 500}
+    [response] => Array
+        (
+            [code] => 500
+            [message] => Internal Server Error
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => loid
+                    [value] => 000000001qggj7sxq2.2.1748619749505.Z0FBQUFBQm9PZEhsYkZ4Q2dMNnNjNUhSUzVIMVVRXzNCd1ZPelQ2a1FuZ2F4SzRJOUdxNFM1U3dCazNsOGVLTndTMmR0SG9NNlZYZkluWkpsZjFxNXV3UmN5N1Rib1BndHRkLXFrWlNnS29la3dQNWlMcDNXVHNUSE5BZVdPUl9mUE9mdXZvdmNUSWw
+                    [expires] => 1811691749
+                    [path] => /
+                    [domain] => reddit.com
+                    [port] => 
+                    [host_only] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => session_tracker
+                    [value] => w5E6pRwCdCIEm80AFj.0.1748619749507.Z0FBQUFBQm9PZEhsUk9iNWxjb2lyQXBPQVU3SmFQeDJiV1JDa0hkczl0aTVRYVpyeF9PTzZFek56ZHFCT2lPUmgtaUpLYTZxT2JqNkNOUDFlNl91dWRqb0dQTEhsRThaeVRKUjFJek5rR2w1WEo3amdNdXVlWHVrdlhhOWh6OHdpNWI3ay14TllVSGk
+                    [expires] => 1748626949
+                    [path] => /
+                    [domain] => reddit.com
+                    [port] => 
+                    [host_only] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => edgebucket
+                    [value] => jtn5Esx5cIX5CY4YGK
+                    [expires] => 
+                    [path] => /
+                    [domain] => reddit.com
+                    [port] => 
+                    [host_only] => 
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"message": "Internal Server Error", "error": 500}
+                    [raw] => HTTP/1.1 500 Internal Server Error
+Connection: close
+content-type: application/json; charset=UTF-8
+x-ua-compatible: IE=edge
+expires: -1
+cache-control: private, s-maxage=0, max-age=0, must-revalidate, no-store
+set-cookie: loid=000000001qggj7sxq2.2.1748619749505.Z0FBQUFBQm9PZEhsYkZ4Q2dMNnNjNUhSUzVIMVVRXzNCd1ZPelQ2a1FuZ2F4SzRJOUdxNFM1U3dCazNsOGVLTndTMmR0SG9NNlZYZkluWkpsZjFxNXV3UmN5N1Rib1BndHRkLXFrWlNnS29la3dQNWlMcDNXVHNUSE5BZVdPUl9mUE9mdXZvdmNUSWw; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sun, 30-May-2027 15:42:29 GMT; secure
+set-cookie: session_tracker=w5E6pRwCdCIEm80AFj.0.1748619749507.Z0FBQUFBQm9PZEhsUk9iNWxjb2lyQXBPQVU3SmFQeDJiV1JDa0hkczl0aTVRYVpyeF9PTzZFek56ZHFCT2lPUmgtaUpLYTZxT2JqNkNOUDFlNl91dWRqb0dQTEhsRThaeVRKUjFJek5rR2w1WEo3amdNdXVlWHVrdlhhOWh6OHdpNWI3ay14TllVSGk; Domain=reddit.com; Max-Age=7199; Path=/; expires=Fri, 30-May-2025 17:42:29 GMT; secure
+x-ratelimit-used: 4
+x-ratelimit-remaining: 996.0
+x-ratelimit-reset: 450
+content-encoding: gzip
+Accept-Ranges: bytes
+Date: Fri, 30 May 2025 15:42:29 GMT
+Via: 1.1 varnish
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Set-Cookie: edgebucket=jtn5Esx5cIX5CY4YGK; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Server: snooserv
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+NEL: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+transfer-encoding: chunked
+
+{"message": "Internal Server Error", "error": 500}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json; charset=UTF-8
+                                        )
+
+                                    [x-ua-compatible] => Array
+                                        (
+                                            [0] => IE=edge
+                                        )
+
+                                    [expires] => Array
+                                        (
+                                            [0] => -1
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => private, s-maxage=0, max-age=0, must-revalidate, no-store
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => loid=000000001qggj7sxq2.2.1748619749505.w; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Sun, 30-May-2027 15:42:29 GMT; secure
+                                            [1] => session_tracker=w5E6pRwCdCIEm80AFj; Domain=reddit.com; Max-Age=7199; Path=/; expires=Fri, 30-May-2025 17:42:29 GMT; secure
+                                            [2] => edgebucket=jtn5Esx; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+                                        )
+
+                                    [x-ratelimit-used] => Array
+                                        (
+                                            [0] => 4
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 996.0
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 450
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [accept-ranges] => Array
+                                        (
+                                            [0] => bytes
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Fri, 30 May 2025 15:42:29 GMT
+                                        )
+
+                                    [via] => Array
+                                        (
+                                            [0] => 1.1 varnish
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Accept-Encoding
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=31536000; includeSubdomains
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => SAMEORIGIN
+                                        )
+
+                                    [x-xss-protection] => Array
+                                        (
+                                            [0] => 1; mode=block
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => snooserv
+                                        )
+
+                                    [report-to] => Array
+                                        (
+                                            [0] => {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+                                        )
+
+                                    [nel] => Array
+                                        (
+                                            [0] => {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 500
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://oauth.reddit.com/api/media/asset.json?raw_json=1
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [loid] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => loid
+                                            [value] => 000000001qggj7sxq2.2.1748619749505.Z0FBQUFBQm9PZEhsYkZ4Q2dMNnNjNUhSUzVIMVVRXzNCd1ZPelQ2a1FuZ2F4SzRJOUdxNFM1U3dCazNsOGVLTndTMmR0SG9NNlZYZkluWkpsZjFxNXV3UmN5N1Rib1BndHRkLXFrWlNnS29la3dQNWlMcDNXVHNUSE5BZVdPUl9mUE9mdXZvdmNUSWw
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [domain] => reddit.com
+                                                            [max-age] => 1811691747
+                                                            [path] => /
+                                                            [expires] => 1811691749
+                                                            [secure] => 1
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1748619748
+                                                    [last-access] => 1748619748
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1748619748
+                                        )
+
+                                    [session_tracker] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => session_tracker
+                                            [value] => w5E6pRwCdCIEm80AFj.0.1748619749507.Z0FBQUFBQm9PZEhsUk9iNWxjb2lyQXBPQVU3SmFQeDJiV1JDa0hkczl0aTVRYVpyeF9PTzZFek56ZHFCT2lPUmgtaUpLYTZxT2JqNkNOUDFlNl91dWRqb0dQTEhsRThaeVRKUjFJek5rR2w1WEo3amdNdXVlWHVrdlhhOWh6OHdpNWI3ay14TllVSGk
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [domain] => reddit.com
+                                                            [max-age] => 1748626947
+                                                            [path] => /
+                                                            [expires] => 1748626949
+                                                            [secure] => 1
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1748619748
+                                                    [last-access] => 1748619748
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1748619748
+                                        )
+
+                                    [edgebucket] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => edgebucket
+                                            [value] => jtn5Esx5cIX5CY4YGK
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [domain] => reddit.com
+                                                            [max-age] => 1811691747
+                                                            [path] => /
+                                                            [secure] => 1
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1748619748
+                                                    [last-access] => 1748619748
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1748619748
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
